@@ -46,22 +46,22 @@
     .signin{
         background-color: #f03d5f;
         color: white;
-        border: solid 2px #f03d5f;
+        border: solid 1px #f03d5f;
     }
     .signup{
         background-color: white;
         color: #f03d5f;
-        border: solid 2px #f03d5f;
+        border: solid 1px #f03d5f;
     }
     .signin:hover{
         background-color: white;
         color: #f03d5f;
-        border: solid 2px #f03d5f;
+        border: solid 1px #f03d5f;
     }
     .signup:hover{
         background-color: #f03d5f;
         color: white;
-        border: solid 2px #f03d5f;
+        border: solid 1px #f03d5f;
     }
 </style>
 
@@ -71,7 +71,7 @@
 
     <div class="container">
         <div class="row mt-5 align-items-center py-5 px-lg-5">
-            <div class="col-md-6 text-center form">
+            <div class="col-md-6 text-center form px-lg-5 ">
                 <div class="col-12 py-3">
                     <h1 class="h1">Create Account</h1>
                 </div>
@@ -84,7 +84,7 @@
                 <div class="col-12 py-3">
                     <span>or use your email for registration</span>
                 </div>
-                <div class="col-12 text-start">
+                <div class="col-12 text-start ">
                    <form>
                     <div class="form-group mb-3">
                         <input type="name" class="form-control" id="name"  placeholder="Name">
@@ -99,10 +99,17 @@
                         <input type="checkbox" class="form-check-input checkbox" id="check1">
                         <label class="form-check-label" for="check1">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
                     </div>
-                    <div class="col-12 text-center">
-                        <button type="submit" class="signin btn btn-primary btn-lg px-5 me-4">Sign up</button>
+                        <!-- <button type="submit" class="signin btn btn-primary btn-lg px-5 me-4">Sign up</button>
                         <button type="submit" class="signup btn btn-primary btn-lg px-5">Sign in</button>
-                    </div>
+                         -->
+                        <div class="row mx-0 gx-4">
+                            <div class="col-6  ">
+                                <button type="submit" class="signin btn btn-primary btn-lg w-100">Sign up</button>
+                            </div>
+                            <div class="col-6 ">
+                                <button type="submit" class="signup btn btn-primary btn-lg w-100">Sign in</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
